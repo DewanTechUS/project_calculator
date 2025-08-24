@@ -1,0 +1,64 @@
+/* Project: Odin Project Calculator Assignment: (DEWAN MAHMUD)
+   Assignment: (DEWAN MAHMUD) */
+/* Heading centered above calculator */
+
+
+
+
+body {
+  display: flex.center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  width: 260px;
+}
+
+#display {
+  background: #222;
+  color: #fff;
+  font-size: 2em;
+  text-align:center;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  background: #eee;
+  cursor: pointer;
+}
+
+.btn:hover { background: #ddd; }
+
+.operator {
+  background: #ff9500;
+  color: #fff;
+}
+
+#equals {
+  background: #28a745;
+  color: #fff;
+  grid-row: span 2;
+}
+
+.zero { grid-column: span 2; }
