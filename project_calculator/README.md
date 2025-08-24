@@ -1,5 +1,5 @@
 Project: Calculator
-    Course: The Odin Project (Foundations)
+    Course: The Odin Project - (Foundations)
     Assignment: DEWAN MAHMUD
 
 Assignment
